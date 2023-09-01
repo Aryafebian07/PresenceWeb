@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset */
+@import 'tailwindcss/base';
+@import url(reset.css);
+
+/* Components */
+@import 'tailwindcss/components';
+@import url(buttons.css);
+@import url(form.css);
+
+/* Utilities */
+@import 'tailwindcss/utilities';
+
+[x-cloak] {
+    display: none;
+}
